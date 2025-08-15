@@ -1,5 +1,9 @@
 const fris = document.getElementById("btn");
+const fri = document.querySelector(".fri");
+
+
+
 
 fris.addEventListener("click", function() {
-    document.querySelector(".fri").style.display = "block";
+    fri.style.display = "block";
 });
